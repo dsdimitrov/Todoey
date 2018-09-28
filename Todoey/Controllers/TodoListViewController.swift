@@ -64,8 +64,6 @@ class TodoListViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        //print("You selected cell \(indexPath.row) \(itemArray[indexPath.row])")
-        
         //This line replaces a long if-else below!!!!
         itemArray[indexPath.row].done = !itemArray[indexPath.row].done
         

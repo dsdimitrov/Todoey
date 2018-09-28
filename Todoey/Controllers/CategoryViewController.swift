@@ -48,8 +48,6 @@ class CategoryViewController: UITableViewController {
         
         tableView.deselectRow(at: indexPath, animated: true)
         
-       // performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
-        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
